@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inbox - Gmail copycat</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="application.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="row tabs">
+      <div class="col-3 active">
+        <div class="menu">
+            <i class="fas fa-inbox"></i>
+            <span>Principal <small id="count"></small></span>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="menu">
+            <i class="fas fa-user-friends"></i>
+            <span>Social</span>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="menu">
+            <i class="fas fa-tags"></i>
+            <span>Promotions</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="inbox">
+    <div class="row message read">
+      <div class="col-3">
+          <i class="far fa-square"></i>
+          <i class="far fa-star"></i>
+          <span>DHH</span>
+        </div>
+      <div class="col-9">A new job awaits you!</div>
+    </div>
+    <div class="row message read">
+      <div class="col-3">
+        <i class="far fa-square"></i>
+        <i class="far fa-star"></i>
+        <span>JavaScript Weekly</span>
+      </div>
+      <div class="col-9">How to become a JS pro in 3 days</div>
+    </div>
+    <div class="row message read">
+      <div class="col-3">
+        <i class="far fa-square"></i>
+        <i class="far fa-star"></i>
+        <span>Boris Paillard</span>
+      </div>
+      <div class="col-9">Welcome to Le Wagon :)</div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+  <script src="https://kit.fontawesome.com/244820a7cb.js" crossorigin="anonymous"></script>
+</body>
+</html>
